@@ -1,0 +1,9 @@
+{
+  "type": "stonecutting",
+  "ingredient": "#minecraft:warped_stems"
+  ,
+  "result": {
+    "id": "minecraft:warped_pressure_plate",
+    "count": 4
+  }
+}

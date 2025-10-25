@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "#minecraft:oak_logs"
+  },
+  "result": {
+    "id": "minecraft:oak_door",
+    "count": 12
+  }
+}

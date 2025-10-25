@@ -1,0 +1,9 @@
+{
+  "type": "stonecutting",
+  "ingredient": "minecraft:bamboo_block"
+  ,
+  "result": {
+    "id": "minecraft:bamboo_trapdoor",
+    "count": 1
+  }
+}

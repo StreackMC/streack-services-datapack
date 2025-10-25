@@ -1,0 +1,16 @@
+{
+  "type":"crafting_shaped",
+  "category": "redstone",
+  "result":{
+    "id":"minecraft:spawner"
+  },
+  "pattern":[
+    "axa",
+    "x x",
+    "axa"
+  ],
+  "key":{
+    "x": "command_block_minecart",
+    "a": "iron_bars"
+  }
+}
