@@ -6,7 +6,7 @@
       "entity": "this",
       "predicate": {
         "type": "falling_block",
-        "nbt": "{BlockState:{Name:\"minecraft:dragon_egg\"}}"
+        "nbt": "{BlockState:{Name:\"minecraft:dragon_egg___________\"}}"
       }
     }
   ]
