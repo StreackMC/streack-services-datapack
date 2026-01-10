@@ -28,5 +28,5 @@ execute at @s \
   if block ~1 ~2 ~-1 air \
   if block ~1 ~2 ~ air \
   if block ~1 ~2 ~1 air \
-  unless score @s kdx.kits.record >= "kdx:state.ok" kdx \
+  unless score @s kdx.kits.record >= kdx:state.ok kdx \
   run function kdx.kits:_get

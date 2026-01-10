@@ -14,5 +14,5 @@ tellraw @a [\
 scoreboard players set kdx.cleaner:killed.sum kdx 0
 bossbar set kdx.cleaner:timer visible false
 execute as @a at @s run playsound minecraft:block.beacon.activate voice @a ~ ~ ~ 1 1
-execute unless score "kdx.cleaner:disabled" kdx >= "kdx:state.ok" kdx run function kdx.cleaner:new_session
-execute if score "kdx.cleaner:disabled" kdx >= "kdx:state.ok" kdx run advancement revoke @a only kdx.cleaner:enabled
+execute unless score kdx.cleaner:disabled kdx >= kdx:state.ok kdx run function kdx.cleaner:new_session
+execute if score kdx.cleaner:disabled kdx >= kdx:state.ok kdx run advancement revoke @a only kdx.cleaner:enabled
