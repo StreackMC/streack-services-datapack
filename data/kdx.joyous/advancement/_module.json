@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "text": "Joyous",
+      "italic": false
+    },
+    "description": {
+      "text": "提供部分玩法驱动\n\nkdx.joyous:*",
+      "italic": false
+    },
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "kdx:_module",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}
