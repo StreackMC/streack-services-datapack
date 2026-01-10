@@ -1,5 +1,8 @@
 name: Build release zip
 
+disabled:
+  s
+
 on:
   push:
     branches: [master]
