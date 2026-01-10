@@ -1,0 +1,1 @@
+scoreboard objectives add kdx.joyous.unobtainable dummy "kdx.joyous.unobtainable"

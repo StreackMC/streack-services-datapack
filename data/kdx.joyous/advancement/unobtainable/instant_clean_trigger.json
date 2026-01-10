@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "barrier"
+    },
+    "title": {
+      "text": "无法获取检测",
+      "italic": false
+    },
+    "description": {
+      "text": "aaa",
+      "italic": false
+    },
+    "hidden": true,
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "kdx:_hidden",
+  "criteria": {
+    "isHasItemWithTag": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+      }
+    }
+  },
+  "rewards": {
+    "function": "kdx.joyous:unobtainable/instant_clean"
+  }
+}
