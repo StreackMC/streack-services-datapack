@@ -1,0 +1,17 @@
+[
+  {
+    "function": "set_lore",
+    "lore": [
+      {"text": "§r"},
+      {"text": "§r§c延迟回收："},
+      {"text": "§r§2此物品在达成一些目标后将会被自动回收"}
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "streack.unobtainable": "delayed"
+    }
+  }
+]

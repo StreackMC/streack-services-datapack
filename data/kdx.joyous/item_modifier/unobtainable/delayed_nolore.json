@@ -1,0 +1,8 @@
+[
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "streack.unobtainable": "delayed"
+    }
+  }
+]

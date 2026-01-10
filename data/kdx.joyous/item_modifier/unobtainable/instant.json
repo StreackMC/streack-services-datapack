@@ -1,0 +1,17 @@
+[
+  {
+    "function": "set_lore",
+    "lore": [
+      {"text": "§r"},
+      {"text": "§r§c无法获取："},
+      {"text": "§r§2此物品不可被正常获取"}
+    ],
+    "mode": "append"
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "streack.unobtainable": "instant"
+    }
+  }
+]
