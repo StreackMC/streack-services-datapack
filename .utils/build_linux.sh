@@ -3,7 +3,7 @@
 # ============================================
 # 构建产品信息
 app_name="Streack Services Datapack"
-app_productid="com.github.streackmc.datapack"
+app_productid="com.github.streackmc.streack-services-datapack"
 app_output_name="Streack_dp"
 # ============================================
 
