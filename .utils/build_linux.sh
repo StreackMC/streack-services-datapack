@@ -11,7 +11,7 @@ app_output_name="Streack_dp"
 
 ## code
 # 注入日志实现
-trap 'errcode=$? ; printf "[%s]${RED}[E] 错误：无法完成编译，第 $LINENO 行的命令未正常执行，其返回了 $errcode 。\n" "$(date '+%H:%M:%S')" ; exit $errcode' ERR
+trap 'errcode=$? ; printf "err: 无法完成编译，第 $LINENO 行的命令未正常执行，其返回了 $errcode 。\n" "$(date '+%H:%M:%S')" ; exit $errcode' ERR
 set -euo pipefail
 NC='\033[0m'
 BLACK='\033[0;30m'
@@ -44,11 +44,21 @@ ts_log() {
   while IFS= read -r line; do
     local FONTC=${NC}[I]
     
-    if [[ "$line" =~ (^|[^a-zA-Z])[Ee][Rr][Rr](:)?([Oo][Rr])?(:)?([^a-zA-Z]|$) ]]; then
+    if [[ "$line" =~ (^|[^a-zA-Z])[Ee][Rr][Rr]([:：])?([Oo][Rr])?([:：])?([^a-zA-Z]|$) ]]; then
       FONTC=${BRED}[E]
-    elif [[ "$line" =~ (^|[^a-zA-Z])[Ww][Aa][Rr][Nn](:)?([Ii][Nn][Gg])?(:)?([^a-zA-Z]|$) ]]; then
+    elif [[ "$line" =~ 错误 ]]; then
+      FONTC=${BRED}[E]
+    elif [[ "$line" =~ (^|[^a-zA-Z])[Ww][Aa][Rr][Nn]([:：])?([Ii][Nn][Gg])?([:：])?([^a-zA-Z]|$) ]]; then
       FONTC=${BYELLOW}[W]
-    elif [[ "$line" =~ (^|[^a-zA-Z])[Nn][Oo][Tt][Ee](:)?([Ss])?(:)?([^a-zA-Z]|$) ]]; then
+    elif [[ "$line" =~ 警告 ]]; then
+      FONTC=${BYELLOW}[W]
+    elif [[ "$line" =~ (^|[^a-zA-Z])[Nn][Oo][Tt][Ee]([:：])?([Ss])?([:：])?([^a-zA-Z]|$) ]]; then
+      FONTC=${BBLUE}[N]
+    elif [[ "$line" =~ (^|[^a-zA-Z])[Tt][Ii][Pp]([:：])?([Ss])?([:：])?([^a-zA-Z]|$) ]]; then
+      FONTC=${BBLUE}[N]
+    elif [[ "$line" =~ 注意 ]]; then
+      FONTC=${BBLUE}[N]
+    elif [[ "$line" =~ 提示 ]]; then
       FONTC=${BBLUE}[N]
     fi
     
