@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
+/**
+ * 文本组件迁移工具，遍历指定目录下全部 .mcfunction 文件并自动更新其中的旧版文本组件到 1.21.5+
+ * @author 由 Deepseek 生成。
+ */
+
+import { readFileSync, copyFileSync, writeFileSync, readdirSync, statSync, existsSync } from 'fs';
+import { join } from 'path';
 
 // ---------- 转换核心 ----------
 function convertComponent(comp) {
@@ -206,7 +211,7 @@ function processLine(line) {
 // ---------- 处理文件 ----------
 function processFile(filePath) {
     console.log(`Processing ${filePath}`);
-    const content = fs.readFileSync(filePath, 'utf8');
+    const content = readFileSync(filePath, 'utf8');
     const lines = content.split(/\r?\n/);
     let changed = false;
     const newLines = lines.map(line => {
@@ -218,9 +223,9 @@ function processFile(filePath) {
     if (changed) {
         // 备份
         const backup = filePath + '.bak';
-        fs.copyFileSync(filePath, backup);
+        copyFileSync(filePath, backup);
         console.log(`  Backup created: ${backup}`);
-        fs.writeFileSync(filePath, newLines.join('\n'), 'utf8');
+        writeFileSync(filePath, newLines.join('\n'), 'utf8');
         console.log(`  Updated: ${filePath}`);
     } else {
         console.log(`  No changes in ${filePath}`);
@@ -229,10 +234,10 @@ function processFile(filePath) {
 
 // ---------- 遍历目录 ----------
 function walkDir(dir, callback) {
-    const files = fs.readdirSync(dir);
+    const files = readdirSync(dir);
     for (const file of files) {
-        const fullPath = path.join(dir, file);
-        const stat = fs.statSync(fullPath);
+        const fullPath = join(dir, file);
+        const stat = statSync(fullPath);
         if (stat.isDirectory()) {
             walkDir(fullPath, callback);
         } else if (stat.isFile() && file.endsWith('.mcfunction')) {
@@ -244,7 +249,7 @@ function walkDir(dir, callback) {
 // ---------- 主程序 ----------
 function main() {
     const rootDir = process.argv[2] || '.';
-    if (!fs.existsSync(rootDir)) {
+    if (!existsSync(rootDir)) {
         console.error(`Directory ${rootDir} does not exist.`);
         process.exit(1);
     }
