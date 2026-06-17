@@ -7,7 +7,7 @@
     "description": "§o他还只是个孩子啊",
     "hidden": true
   },
-  "parent": "kdx:_streack",
+  "parent": "kdx:_joyose",
   "criteria": {
     "■": {
       "trigger": "minecraft:player_killed_entity",

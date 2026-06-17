@@ -7,7 +7,7 @@
     "description": "§o别杀海豚，你这个怪物！",
     "hidden": true
   },
-  "parent": "kdx:_streack",
+  "parent": "kdx:_joyose",
   "criteria": {
     "非人哉": {
       "trigger": "minecraft:player_killed_entity",
