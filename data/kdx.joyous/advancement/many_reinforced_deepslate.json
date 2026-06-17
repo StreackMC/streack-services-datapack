@@ -1,7 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:reinforced_deepslate"
+      "id": "minecraft:reinforced_deepslate",
+      "components": {
+        "enchantment_glint_override": true
+      }
     },
     "title": {
       "text": "极其昂贵！"
@@ -12,7 +15,7 @@
     "frame": "challenge",
     "hidden": false
   },
-  "parent": "kdx.mrecipe:craft_reinforced_deepslate",
+  "parent": "kdx.joyous:craft_reinforced_deepslate",
   "criteria": {
     "rd64": {
       "trigger": "minecraft:inventory_changed",
