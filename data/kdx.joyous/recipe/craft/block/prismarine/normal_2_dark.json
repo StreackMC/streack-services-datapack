@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "prismarine",
+    "prismarine",
+    "black_dye"
+  ],
+  "result": {
+    "id": "minecraft:dark_prismarine",
+    "count": 1
+  }
+}
