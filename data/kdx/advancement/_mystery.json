@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/cherry_planks.png",
+    "background": "minecraft:block/cherry_planks",
     "icon": {
       "id": "minecraft:spyglass" 
     },

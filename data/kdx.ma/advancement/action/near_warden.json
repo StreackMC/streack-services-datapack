@@ -7,7 +7,7 @@
     "title": "We Need Goto Near-er",
     "description": "§o你与**它**可以更加深入一些——后果自负。"
   },
-  "parent": "kdx:_streack",
+  "parent": "kdx:_mystery",
   "criteria": {
     "near_warden":{
       "trigger": "minecraft:impossible"

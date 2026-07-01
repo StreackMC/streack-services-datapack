@@ -1,6 +1,10 @@
-scoreboard players set "kdx.cleaner:timing.enable" kdx 0
-scoreboard players set "kdx.cleaner:timing" kdx 0
+scoreboard players set kdx.cleaner:timing.enable kdx 0
+scoreboard players set kdx.cleaner:timing kdx 0
 bossbar set kdx.cleaner:timer value 0
+bossbar set kdx.cleaner:timer name \
+  [{"text": "扫地姬","color": "#A352D1"},\
+  {"text": "技能蓄力进度 ","color": "#CA74AE","underlined": false},\
+  {"text": "","color": "yellow","bold": true}]
 
 # 定时
 schedule function kdx.cleaner:timer/1min 540s

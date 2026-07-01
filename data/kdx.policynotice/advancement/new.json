@@ -10,7 +10,7 @@
     "frame": "task",
     "description": "继续游玩本服务器视为您已认真阅读并同意我们的《用户协议》与《隐私政策》，请知悉。\n若您需要撤回同意，请联系管理员。"
   },
-  "parent": "kdx:_streack",
+  "parent": "kdx.policynotice:_module",
   "sends_telemetry_event": false,
   "criteria": {
     "agree_policy_on_launch": {

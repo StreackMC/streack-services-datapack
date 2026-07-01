@@ -1,5 +1,5 @@
 {
-  "type": "kdx.mworld:max_overworld",
+  "type": "kdx.mw:max_overworld",
   "generator": {
     "type": "flat",
     "settings": {

@@ -8,4 +8,4 @@ function kdx.kits:initialize
 function kdx.policynotice:initialize
 
 data modify storage kdx:initialized status set value 1b
-tellraw @a [{"text":"Streack Service Datapack ","color":"aqua"},{"text":" 已完成初始化 ✓\n","color":"green"}]
+tellraw @a [{text:"Streack Service Datapack ", color:"aqua"}, {text:" 已完成初始化 ✓", color:"green"}]
