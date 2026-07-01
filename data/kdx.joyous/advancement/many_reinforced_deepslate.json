@@ -10,7 +10,7 @@
       "text": "极其昂贵！"
     },
     "description": {
-      "text": "同时持有64块「强化深板岩」——富哥vivo50看看实力！"
+      "text": "同时持有16块「强化深板岩」——富哥vivo50看看实力！"
     },
     "frame": "challenge",
     "hidden": false
@@ -25,7 +25,7 @@
             "items": [
               "minecraft:reinforced_deepslate"
             ],
-            "count": 64
+            "count": 16
           }
         ]
       }
