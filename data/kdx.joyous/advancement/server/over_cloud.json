@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_stained_glass"
+    },
+    "frame": "challenge",
+    "title": "云端之巅之上，九天之穹之下",
+    "description": "§o拨开重嶂黑云，重现郎朗晴空。\n§r§7发现并完成主城的隐藏跑酷。",
+    "hidden": true
+  },
+  "parent": "kdx.ma:action/fly_me_to_the_moon",
+  "criteria": {
+    "reach_cloud": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "kdx.joyous:adv/server/over_cloud"
+  }
+}

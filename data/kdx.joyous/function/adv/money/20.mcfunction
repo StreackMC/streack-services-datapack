@@ -1,0 +1,1 @@
+function kdx.joyous:get_money {amout:20}

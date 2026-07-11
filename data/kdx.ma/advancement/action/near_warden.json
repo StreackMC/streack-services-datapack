@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id":"minecraft:warden_spawn_egg"
+      "id": "minecraft:warden_spawn_egg"
     },
     "frame": "task",
     "title": "We Need Goto Near-er",
@@ -12,5 +12,8 @@
     "near_warden":{
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "kdx.joyous:adv/money/10"
   }
 }

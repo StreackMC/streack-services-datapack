@@ -24,5 +24,9 @@
         }
       }
     }
+  },
+  "rewards": {
+    "experience": 20,
+    "function": "kdx.joyous:adv/money/10"
   }
 }

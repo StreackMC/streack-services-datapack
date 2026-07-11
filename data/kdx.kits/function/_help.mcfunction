@@ -5,31 +5,31 @@ tellraw @s [\
   },{\
     "text":"使用/function kdx.kits:_*** 来执行操作\n",\
     "color":"white",\
-    "clickEvent":{\
+    "click_event":{\
       "action":"suggest_command",\
       "value":"/function kdx.kits:_"}\
   },{\
     "text":"_help 显示此帮助列表\n",\
     "color":"white",\
-    "clickEvent":{\
+    "click_event":{\
       "action":"suggest_command",\
       "value":"/function kdx.kits:_help"}\
   },{\
     "text":"_set 将指定物品添加到礼包中\n",\
     "color":"white",\
-    "clickEvent":{\
+    "click_event":{\
       "action":"suggest_command",\
       "value":"/function kdx.kits:_set"}\
   },{\
     "text":"zreset_warning 重置所有玩家的领取记录\n",\
     "color":"white",\
-    "clickEvent":{\
+    "click_event":{\
       "action":"suggest_command",\
       "value":"/function kdx.kits:zreset_"}\
   },{\
     "text":"_get 强制给与命令执行者一份礼包，若需指定玩家请使用execute\n",\
     "color":"white",\
-    "clickEvent":{\
+    "click_event":{\
       "action":"suggest_command",\
       "value":"/function kdx.kits:_reset"}\
   },{\

@@ -12,7 +12,10 @@
       ],
       "enchantment_glint_override": false,
       "max_stack_size": 16,
-      "rarity": "epic"
+      "rarity": "epic",
+      "custom_data": {
+        "streack": "reinforced_deepslate"
+      }
     }
   }
 }

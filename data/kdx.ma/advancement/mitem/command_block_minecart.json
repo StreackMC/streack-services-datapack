@@ -30,6 +30,7 @@
     }
   },
   "rewards": {
-    "experience": 0
+    "experience": 20,
+    "function": "kdx.joyous:adv/money/40"
   }
 }

@@ -24,3 +24,4 @@ give @s minecraft:crossbow\
     tooltip_display={hidden_components:["enchantments"]},\
     minecraft:charged_projectiles=[{"id":"arrow"}]\
   ]
+function kdx.joyous:adv/money/40
