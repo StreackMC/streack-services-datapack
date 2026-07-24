@@ -1,6 +1,6 @@
 # Streack Service Datapack数据包说明书
 
-本数据包遵循模块化设计，命名空间均以`kdx`或`streack`开头。
+本数据包遵循模块化设计，命名空间均以`kdx`、`joyous`或`streack`开头。
 请勿与命名空间冲突的数据包混用，以防意外的效果。
 
 本数据包部分模块与 Joyous 插件兼容。
@@ -20,12 +20,12 @@
 
 ## 扫地姬 kdx.cleaner:*
 
-扫地姬会每隔10分钟清除全部掉落物。
+澪奈会每隔10分钟清除全部掉落物。
 在开始工作前会有全局提示。
 
-扫地姬关闭请输入命令`/function kdx.cleaner:_off`
+澪奈关闭请输入命令`/function kdx.cleaner:_off`
 ↑输入后在下次扫地完成后生效
-扫地姬开启请输入命令`/function kdx.cleaner:_on`
+澪奈开启请输入命令`/function kdx.cleaner:_on`
 
 同时支持通过特定操作为特定物品添加不会被扫掉的标记
 
@@ -48,6 +48,10 @@
 同时也有一些隐藏进度。
 
 不过后期这里实际上承担了「更多进度」的用途——没错，触发其它东西也有进度。
+
+## 附魔拓展 kdx.me:*
+
+原版附魔太少了，再加亿点点。
 
 ## Mutiple World kdx.mw:*
 

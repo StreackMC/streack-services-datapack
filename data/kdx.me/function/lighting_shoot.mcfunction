@@ -1,0 +1,1 @@
+scoreboard players set @s kdx.me.projectiles_loading -200

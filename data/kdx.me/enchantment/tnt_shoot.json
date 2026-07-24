@@ -1,0 +1,43 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.tnt_shoot",
+    "fallback": "炸药改装"
+  },
+  "anvil_cost": 6,
+  "weight": 3,
+  "max_level": 1,
+  "exclusive_set": ["minecraft:quick_charge","kdx.me:ender_shoot"],
+  "supported_items": "minecraft:crossbow",
+  "slots": ["mainhand"],
+  "min_cost": {
+    "base": 28,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 31,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kdx.me:tnt_shoot_shoot"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": {
+                "item": {
+                  "id": "minecraft:tnt"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
