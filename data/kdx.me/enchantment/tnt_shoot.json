@@ -3,18 +3,18 @@
     "translate": "enchantmanet.streack.tnt_shoot",
     "fallback": "炸药改装"
   },
-  "anvil_cost": 6,
-  "weight": 3,
+  "anvil_cost": 9,
+  "weight": 1,
   "max_level": 1,
   "exclusive_set": ["minecraft:quick_charge","kdx.me:ender_shoot"],
   "supported_items": "minecraft:crossbow",
   "slots": ["mainhand"],
   "min_cost": {
-    "base": 28,
+    "base": 30,
     "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 31,
+    "base": 50,
     "per_level_above_first": 0
   },
   "effects": {
