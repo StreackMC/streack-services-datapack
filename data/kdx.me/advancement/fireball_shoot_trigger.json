@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "barrier"
+    },
+    "title": {
+      "text": "小号烈焰弹弩装填检测器",
+      "italic": false
+    },
+    "description": {
+      "text": "aaa",
+      "italic": false
+    },
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "kdx:_hidden",
+  "criteria": {
+    "isHasItemWithTag": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "charged_projectiles": []
+          },
+          "items": "crossbow",
+          "predicates": {
+            "minecraft:enchantments": [
+              {"enchantments": "kdx.me:fireball_shoot","levels": 1}
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:fire_charge"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kdx.me:fireball_shoot_load"
+  }
+}

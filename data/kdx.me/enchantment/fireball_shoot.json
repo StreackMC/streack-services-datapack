@@ -1,17 +1,17 @@
 {
   "description": {
     "translate": "enchantmanet.streack.fireball_shoot",
-    "fallback": "火球改装"
+    "fallback": "烈焰改装"
   },
   "anvil_cost": 6,
   "weight": 3,
-  "max_level": 1,
+  "max_level": 2,
   "exclusive_set": ["minecraft:quick_charge"],
   "supported_items": "minecraft:crossbow",
   "slots": ["mainhand"],
   "min_cost": {
-    "base": 28,
-    "per_level_above_first": 0
+    "base": 30,
+    "per_level_above_first": 10
   },
   "max_cost": {
     "base": 31,
