@@ -12,10 +12,10 @@
   "slots": ["mainhand"],
   "min_cost": {
     "base": 25,
-    "per_level_above_first": 4
+    "per_level_above_first": 5
   },
   "max_cost": {
-    "base": 50,
+    "base": 45,
     "per_level_above_first": 0
   },
   "effects": {
