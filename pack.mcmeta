@@ -2,12 +2,5 @@
   "pack": {
     "pack_format": 61,
     "description": "§bStreack§a§l Service Datapack\n§r§7By @kdxiaoyi"
-  },
-  "filter": {
-    "block": [
-      {
-        "path": "\.DS_Store"
-      }
-    ]
   }
 }
