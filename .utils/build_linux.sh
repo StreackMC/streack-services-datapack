@@ -68,7 +68,7 @@ ts_log() {
 exec > >(ts_log)
 exec 2>&1
 
-buildtool_ver="0.2.1"
+buildtool_ver="0.2.2"
 
 echo -e "${BOLD}${BPURPLE}StreackMC Buildtool for ${UNDERLINE}MCPACK"
 echo -e "${BCYAN}v${buildtool_ver}"
@@ -107,6 +107,8 @@ ls ./target
 echo -e "${BYELLOW}目录 ./target 下的上述文件将被永久删除。"
 rm -rf target
 mkdir -p target
+echo -e "${NC}正在整理 .DS_Store 文件"
+find . -name '.DS_Store' -type f -delete
 
 echo -e "${NC}${BOLD}${CYAN}# 开始打包"
 zip -r9 ./target/${app_output_name}-${git_ver}.zip \
