@@ -1,7 +1,7 @@
 {
   "description": {
-    "translate": "enchantmanet.streack.ender_shoot",
-    "fallback": "末影改装"
+    "translate": "enchantmanet.streack.fireball_shoot",
+    "fallback": "火球改装"
   },
   "anvil_cost": 6,
   "weight": 3,
@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "kdx.me:ender_shoot_shoot"
+          "function": "kdx.me:fireball_shoot_shoot"
         },
         "requirements": [
           {
@@ -31,7 +31,7 @@
             "predicate": {
               "nbt": {
                 "item": {
-                  "id": "minecraft:ender_pearl"
+                  "id": "minecraft:fire_charge"
                 }
               }
             }
