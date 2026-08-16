@@ -1,0 +1,2 @@
+execute unless entity @e[type=armor_stand,tag=streack_enchantment_lava_walker,distance=..1] run summon armor_stand ~ ~-.5 ~ {Tags:["streack_enchantment_lava_walker"],Invulnerable:true,Small:true,NoGravity:true,Glowing:true,active_effects:[{id:"fire_resistance",duration:2147483647,show_particles:false}]}
+execute at @e[type=armor_stand,tag=streack_enchantment_lava_walker,distance=..1] unless block ~ ~ ~ magma_block unless block ~ ~ ~ air run setblock ~ ~ ~ magma_block
