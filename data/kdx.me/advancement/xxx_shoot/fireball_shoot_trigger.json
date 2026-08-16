@@ -27,7 +27,7 @@
           "items": "crossbow",
           "predicates": {
             "minecraft:enchantments": [
-              {"enchantments": "kdx.me:fireball_shoot","levels": 1}
+              {"enchantments": "kdx.me:xxx_shoot/fireball_shoot","levels": 1}
             ]
           }
         },
@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "kdx.me:fireball_shoot_load"
+    "function": "kdx.me:xxx_shoot/fireball_shoot_load"
   }
 }

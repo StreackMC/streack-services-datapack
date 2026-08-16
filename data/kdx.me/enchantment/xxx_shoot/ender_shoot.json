@@ -1,20 +1,20 @@
 {
   "description": {
-    "translate": "enchantmanet.streack.tnt_shoot",
-    "fallback": "炸药改装"
+    "translate": "enchantmanet.streack.ender_shoot",
+    "fallback": "末影改装"
   },
-  "anvil_cost": 9,
-  "weight": 1,
+  "anvil_cost": 6,
+  "weight": 3,
   "max_level": 1,
   "exclusive_set": ["minecraft:quick_charge"],
   "supported_items": "minecraft:crossbow",
   "slots": ["mainhand"],
   "min_cost": {
-    "base": 30,
+    "base": 28,
     "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 50,
+    "base": 31,
     "per_level_above_first": 0
   },
   "effects": {
@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "kdx.me:tnt_shoot_shoot"
+          "function": "kdx.me:xxx_shoot/ender_shoot_shoot"
         },
         "requirements": [
           {
@@ -31,7 +31,7 @@
             "predicate": {
               "nbt": {
                 "item": {
-                  "id": "minecraft:tnt"
+                  "id": "minecraft:ender_pearl"
                 }
               }
             }

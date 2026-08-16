@@ -22,7 +22,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "kdx.me:fireball_shoot_shoot"
+          "function": "kdx.me:xxx_shoot/fireball_shoot_shoot"
         },
         "requirements": [
           {
