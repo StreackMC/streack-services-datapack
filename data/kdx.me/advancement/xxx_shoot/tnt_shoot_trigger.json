@@ -4,7 +4,7 @@
       "id": "barrier"
     },
     "title": {
-      "text": "珍珠弩装填检测器",
+      "text": "TNT弩装填检测器",
       "italic": false
     },
     "description": {
@@ -27,14 +27,14 @@
           "items": "crossbow",
           "predicates": {
             "minecraft:enchantments": [
-              {"enchantments": "kdx.me:ender_shoot"}
+              {"enchantments": "kdx.me:xxx_shoot/tnt_shoot"}
             ]
           }
         },
         "player": {
           "equipment": {
             "offhand": {
-              "items": "ender_pearl"
+              "items": "minecraft:tnt"
             }
           }
         }
@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "kdx.me:ender_shoot_load"
+    "function": "kdx.me:xxx_shoot/tnt_shoot_load"
   }
 }

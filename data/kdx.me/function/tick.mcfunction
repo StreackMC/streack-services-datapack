@@ -2,6 +2,9 @@
 execute as @a[scores={kdx.me.projectiles_loading=1..}] run scoreboard players remove @s kdx.me.projectiles_loading 1
 execute as @a[scores={kdx.me.projectiles_loading=0}] run scoreboard players reset @s kdx.me.projectiles_loading
 
+# 岩浆行者
+function kdx.me:lava_walker/ticking
+
 # 曳光弹
 execute as @e[type=ender_pearl] at @s run particle portal ~ ~ ~ 0.04167 0.04167 0.04167 0.1 5 normal
 execute as @e[type=!spectral_arrow,nbt={inGround:false},scores={kdx.me.projectiles_loading=..-199}] at @s run particle glow ~ ~ ~ 0 0 0 0.1 3 normal

@@ -4,7 +4,7 @@
       "id": "barrier"
     },
     "title": {
-      "text": "大号烈焰弹弩装填检测器",
+      "text": "珍珠弩装填检测器",
       "italic": false
     },
     "description": {
@@ -15,7 +15,7 @@
     "announce_to_chat": false,
     "show_toast": false
   },
-  "parent": "kdx.me:fireball_shoot_trigger",
+  "parent": "kdx:_hidden",
   "criteria": {
     "isHasItemWithTag": {
       "trigger": "minecraft:using_item",
@@ -27,14 +27,14 @@
           "items": "crossbow",
           "predicates": {
             "minecraft:enchantments": [
-              {"enchantments": "kdx.me:fireball_shoot","levels": 2}
+              {"enchantments": "kdx.me:xxx_shoot/ender_shoot"}
             ]
           }
         },
         "player": {
           "equipment": {
             "offhand": {
-              "items": "minecraft:fire_charge"
+              "items": "ender_pearl"
             }
           }
         }
@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "kdx.me:fireball_shoot_load_2"
+    "function": "kdx.me:xxx_shoot/ender_shoot_load"
   }
 }

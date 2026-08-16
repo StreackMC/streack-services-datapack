@@ -26,7 +26,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "kdx.me:lighting_shoot"
+          "function": "kdx.me:xxx_shoot/lighting_shoot"
         }
       }
     ]

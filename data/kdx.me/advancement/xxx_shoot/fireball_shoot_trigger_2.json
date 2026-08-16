@@ -4,7 +4,7 @@
       "id": "barrier"
     },
     "title": {
-      "text": "TNT弩装填检测器",
+      "text": "大号烈焰弹弩装填检测器",
       "italic": false
     },
     "description": {
@@ -15,7 +15,7 @@
     "announce_to_chat": false,
     "show_toast": false
   },
-  "parent": "kdx:_hidden",
+  "parent": "kdx.me:xxx_shoot/fireball_shoot_trigger",
   "criteria": {
     "isHasItemWithTag": {
       "trigger": "minecraft:using_item",
@@ -27,14 +27,14 @@
           "items": "crossbow",
           "predicates": {
             "minecraft:enchantments": [
-              {"enchantments": "kdx.me:tnt_shoot"}
+              {"enchantments": "kdx.me:xxx_shoot/fireball_shoot","levels": 2}
             ]
           }
         },
         "player": {
           "equipment": {
             "offhand": {
-              "items": "minecraft:tnt"
+              "items": "minecraft:fire_charge"
             }
           }
         }
@@ -42,6 +42,6 @@
     }
   },
   "rewards": {
-    "function": "kdx.me:tnt_shoot_load"
+    "function": "kdx.me:xxx_shoot/fireball_shoot_load_2"
   }
 }

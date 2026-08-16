@@ -5,7 +5,7 @@ execute at @s run ride @e[sort=nearest,type=tnt,limit=1,tag=streack_tnt_shoot] m
 execute at @s run tag @e[sort=nearest,type=tnt,limit=1,tag=streack_tnt_shoot] remove streack_tnt_shoot
 
 # 箭矢曳光
-function kdx.me:lighting_shoot
+function kdx.me:xxx_shoot/lighting_shoot
 
 # 删除原本会掉落的TNT
 execute at @s run data remove entity @s item
