@@ -2,5 +2,6 @@
   "values": [
     "kdx.me:curse/breaking",
     "kdx.me:curse/weaken_armor"
-  ]
+  ],
+  "replace": false
 }

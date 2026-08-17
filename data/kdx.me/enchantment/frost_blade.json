@@ -1,0 +1,88 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.frost_blade",
+    "fallback": "霜冻之刃"
+  },
+  "anvil_cost": 5,
+  "weight": 1,
+  "max_level": 1,
+  "exclusive_set": [],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "run_function",
+          "function": "kdx.me:forst_blade/mob_victim_event"
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "inverted",
+          "term": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "player"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "run_function",
+          "function": "kdx.me:forst_blade/player_victim_event"
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "player"
+              }
+            },
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "#ice_and_slow"
+                    }
+                  }
+                },
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "#ice_and_slow"
+                    }
+                  },
+                  "offsetY": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
