@@ -1,0 +1,1 @@
+$execute unless data storage kdx:main {version:$(version)} run function kdx:system/initialize {version:$(version)}

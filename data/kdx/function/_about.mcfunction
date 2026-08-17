@@ -1,1 +1,1 @@
-tellraw @s [{text:"Streack Service Datapack", color:"aqua"}, {text:"作者@kdxiaoyi", color:"white", click_event:{action:"open_url", url:"http://space.bilibili.com/1987247870"}}]
+tellraw @s [{text:"Streack Service Datapack", color:"aqua"}, {text:"By kdxiaoyi & StreackMC", color:"white", click_event:{action:"open_url", url:"https://github.com/StreackMC/streack-services-datapack"}, hover_event:{action:"show_text",value:"点击以打开项目地址"}}]
