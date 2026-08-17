@@ -1,11 +1,12 @@
 {
   "values": [
-    "kdx.me:reach_block",
-    "kdx.me:reach_entity",
     "kdx.me:curse/breaking",
+    "kdx.me:curse/weaken_armor",
     "kdx.me:xxx_shoot/ender_shoot",
     "kdx.me:xxx_shoot/fireball_shoot",
     "kdx.me:xxx_shoot/lighting_shoot",
-    "kdx.me:xxx_shoot/tnt_shoot"
+    "kdx.me:xxx_shoot/tnt_shoot",
+    "kdx.me:reach_block",
+    "kdx.me:reach_entity"
   ]
 }

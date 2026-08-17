@@ -1,0 +1,47 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.weaken_armor",
+    "fallback": "薄弱装甲",
+    "color": "red"
+  },
+  "anvil_cost": 4,
+  "weight": 1,
+  "max_level": 5,
+  "exclusive_set": [],
+  "supported_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "attributes": [
+      {
+        "id": "streack.enchantment.weaken_armor",
+        "attribute": "armor",
+        "operation": "add_value",
+        "amount": {
+          "type": "linear",
+          "base": -1,
+          "per_level_above_first": -1
+        }
+      },
+      {
+        "id": "streack.enchantment.weaken_armor",
+        "attribute": "armor_toughness",
+        "operation": "add_value",
+        "amount": {
+          "type": "linear",
+          "base": 0,
+          "per_level_above_first": -1
+        }
+      }
+    ]
+  }
+}
