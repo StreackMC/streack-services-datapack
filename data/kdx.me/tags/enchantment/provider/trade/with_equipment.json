@@ -1,6 +1,7 @@
 {
   "values": [
     "#kdx.me:provider/trade/normal_price",
-    "kdx.me:moon_blessing"
+    "kdx.me:moon_blessing",
+    "kdx.me:knockback_stick"
   ]
 }

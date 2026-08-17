@@ -1,0 +1,56 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.knockback_stick",
+    "fallback": "击退?"
+  },
+  "anvil_cost": 1,
+  "weight": 4,
+  "max_level": 2,
+  "exclusive_set": [],
+  "supported_items": [
+    "stick",
+    "bone",
+    "breeze_rod",
+    "end_rod",
+    "blaze_rod"
+  ],
+  "slots": [
+    "mainhand"
+  ],
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "add",
+          "value": {
+            "type": "linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "id": "streack.enchantment.knockback_stick",
+        "attribute": "attack_damage",
+        "operation": "add_value",
+        "amount": -0.99
+      },
+      {
+        "id": "streack.enchantment.knockback_stick",
+        "attribute": "attack_speed",
+        "operation": "add_value",
+        "amount": 20
+      }
+    ]
+  }
+}
