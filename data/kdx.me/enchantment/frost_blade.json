@@ -6,7 +6,7 @@
   "anvil_cost": 5,
   "weight": 1,
   "max_level": 1,
-  "exclusive_set": [],
+  "exclusive_set": ["minecraft:fire_aspect"],
   "supported_items": "#minecraft:enchantable/sharp_weapon",
   "primary_items": "#swords",
   "slots": [
