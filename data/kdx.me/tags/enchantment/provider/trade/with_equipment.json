@@ -1,7 +1,5 @@
 {
-  "replace": false,
   "values": [
-    "#kdx.me:provider/trade/double_price",
     "#kdx.me:provider/trade/normal_price"
   ]
 }

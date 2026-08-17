@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#kdx.me:types/curse"
+    "#kdx.me:provider/chest_loot"
   ]
 }
