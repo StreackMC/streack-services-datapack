@@ -1,0 +1,46 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.turtle_shell",
+    "fallback": "龟甲强化"
+  },
+  "anvil_cost": 5,
+  "weight": 1,
+  "max_level": 2,
+  "exclusive_set": [],
+  "supported_items": "minecraft:turtle_helmet",
+  "slots": [
+    "armor"
+  ],
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 11
+  },
+  "effects": {
+    "attributes": [
+      {
+        "id": "streack.enchantment.turtle_shell",
+        "attribute": "armor",
+        "operation": "add_value",
+        "amount": {
+          "type": "linear",
+          "base": 1,
+          "per_level_above_first": 1
+        }
+      },
+      {
+        "id": "streack.enchantment.turtle_shell",
+        "attribute": "armor_toughness",
+        "operation": "add_value",
+        "amount": {
+          "type": "linear",
+          "base": 0,
+          "per_level_above_first": 1
+        }
+      }
+    ]
+  }
+}
