@@ -6,7 +6,11 @@
   "anvil_cost": 5,
   "weight": 1,
   "max_level": 3,
-  "exclusive_set": ["kdx.me:xxx_shoot/tnt_shoot", "kdx.me:xxx_shoot/fireball_shoot", "kdx.me:envenomed"],
+  "exclusive_set": [
+    "kdx.me:xxx_shoot/tnt_shoot",
+    "kdx.me:xxx_shoot/fireball_shoot",
+    "kdx.me:envenomed"
+  ],
   "supported_items": "#minecraft:combat_weapon",
   "primary_items": "#minecraft:combat_weapon",
   "slots": [
@@ -53,10 +57,99 @@
         }
       },
       {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:damage_entity",
+          "damage_type": "drown",
+          "min_damage": {
+            "type": "linear",
+            "base": 0,
+            "per_level_above_first": 1
+          },
+          "max_damage": {
+            "type": "linear",
+            "base": 0,
+            "per_level_above_first": 1
+          }
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_fire": true
+                }
+              }
+            },
+            {
+              "condition": "time_check",
+              "period": 24000,
+              "value": {
+                "min": 13000,
+                "max": 24000
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "end_rod"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_position": {
+            "type": "entity_position",
+            "offset": 1
+          },
+          "horizontal_velocity": {
+            "base": 0.1,
+            "movement_scale": 0.8
+          },
+          "vertical_velocity": {
+            "base": 0,
+            "movement_scale": 0
+          }
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_fire": true
+                }
+              }
+            },
+            {
+              "condition": "time_check",
+              "period": 24000,
+              "value": {
+                "min": 13000,
+                "max": 24000
+              }
+            }
+          ]
+        }
+      },
+      {
         "affected": "attacker",
         "effect": {
           "type": "apply_mob_effect",
-          "to_apply": ["speed"],
+          "to_apply": [
+            "speed"
+          ],
           "min_duration": {
             "type": "levels_squared",
             "added": 1
@@ -83,7 +176,9 @@
         "affected": "attacker",
         "effect": {
           "type": "apply_mob_effect",
-          "to_apply": ["strength"],
+          "to_apply": [
+            "strength"
+          ],
           "min_duration": {
             "type": "levels_squared",
             "added": 1
