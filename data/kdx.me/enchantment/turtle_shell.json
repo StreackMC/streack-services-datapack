@@ -13,12 +13,12 @@
     "armor"
   ],
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 11
+    "base": 10,
+    "per_level_above_first": 21
   },
   "max_cost": {
-    "base": 12,
-    "per_level_above_first": 11
+    "base": 30,
+    "per_level_above_first": 0
   },
   "effects": {
     "attributes": [

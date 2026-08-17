@@ -11,11 +11,11 @@
   "primary_items": "#minecraft:enchantable/weapon",
   "slots": ["mainhand"],
   "min_cost": {
-    "base": 41,
-    "per_level_above_first": 5
+    "base": 47,
+    "per_level_above_first": 10
   },
   "max_cost": {
-    "base": 42,
+    "base": 59,
     "per_level_above_first": 0
   },
   "effects": {

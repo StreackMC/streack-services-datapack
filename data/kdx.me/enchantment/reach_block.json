@@ -11,8 +11,8 @@
   "primary_items": "#minecraft:enchantable/mining",
   "slots": ["mainhand"],
   "min_cost": {
-    "base": 37,
-    "per_level_above_first": 5
+    "base": 39,
+    "per_level_above_first": 10
   },
   "max_cost": {
     "base": 50,
