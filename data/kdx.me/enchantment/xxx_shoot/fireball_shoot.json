@@ -6,7 +6,7 @@
   "anvil_cost": 6,
   "weight": 3,
   "max_level": 2,
-  "exclusive_set": ["minecraft:quick_charge"],
+  "exclusive_set": ["minecraft:quick_charge","kdx.me:moon_blessing"],
   "supported_items": "minecraft:crossbow",
   "primary_items": [],
   "slots": ["mainhand"],

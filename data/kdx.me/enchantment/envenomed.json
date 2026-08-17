@@ -7,8 +7,7 @@
   "weight": 1,
   "max_level": 2,
   "exclusive_set": [
-    "minecraft:breach",
-    "minecraft:sweeping_edge"
+    "kdx.me:moon_blessing"
   ],
   "supported_items": "#minecraft:enchantable/sharp_weapon",
   "primary_items": "#minecraft:swords",

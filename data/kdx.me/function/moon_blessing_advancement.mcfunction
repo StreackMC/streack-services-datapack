@@ -1,0 +1,1 @@
+advancement grant @s only kdx.me:trigger_moon_blessing

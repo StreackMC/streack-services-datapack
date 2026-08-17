@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_lantern"
+    },
+    "frame": "challenge",
+    "title": {
+      "text": "皎月相映"
+    },
+    "description": {
+      "text": "§o沐浴月光，并接受月亮的赠礼"
+    },
+    "hidden": true
+  },
+  "parent": "kdx:_streack",
+  "criteria": {
+    "triggered_enchantment_moon_blessing": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "function": "kdx.joyous:adv/money/10"
+  }
+}

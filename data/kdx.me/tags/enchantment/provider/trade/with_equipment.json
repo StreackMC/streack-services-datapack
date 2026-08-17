@@ -1,5 +1,6 @@
 {
   "values": [
-    "#kdx.me:provider/trade/normal_price"
+    "#kdx.me:provider/trade/normal_price",
+    "kdx.me:moon_blessing"
   ]
 }
