@@ -12,6 +12,11 @@
     "minecraft:crossbow",
     "minecraft:trident"
   ],
+  "primary_items": [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:trident"
+  ],
   "slots": ["mainhand"],
   "min_cost": {
     "base": 28,

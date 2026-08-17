@@ -8,6 +8,7 @@
   "max_level": 2,
   "exclusive_set": [],
   "supported_items": "minecraft:turtle_helmet",
+  "primary_items": "minecraft:turtle_helmet",
   "slots": [
     "armor"
   ],

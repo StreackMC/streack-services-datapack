@@ -8,6 +8,7 @@
   "max_level": 3,
   "exclusive_set": [],
   "supported_items": "#minecraft:enchantable/mining",
+  "primary_items": "#minecraft:enchantable/mining",
   "slots": ["mainhand"],
   "min_cost": {
     "base": 37,

@@ -8,6 +8,7 @@
   "max_level": 2,
   "exclusive_set": ["minecraft:breach", "minecraft:sweeping_edge"],
   "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/weapon",
   "slots": ["mainhand"],
   "min_cost": {
     "base": 41,

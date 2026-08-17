@@ -8,6 +8,7 @@
   "max_level": 1,
   "exclusive_set": [],
   "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#swords",
   "slots": [
     "mainhand"
   ],

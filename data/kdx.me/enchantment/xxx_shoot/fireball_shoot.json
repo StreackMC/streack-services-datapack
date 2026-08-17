@@ -8,6 +8,7 @@
   "max_level": 2,
   "exclusive_set": ["minecraft:quick_charge"],
   "supported_items": "minecraft:crossbow",
+  "primary_items": [],
   "slots": ["mainhand"],
   "min_cost": {
     "base": 30,
