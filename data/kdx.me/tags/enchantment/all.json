@@ -1,7 +1,6 @@
 {
   "values": [
-    "kdx.me:curse/breaking",
-    "kdx.me:curse/weaken_armor",
+    "#kdx.me:types/curse",
     "kdx.me:envenomed",
     "kdx.me:frost_blade",
     "kdx.me:reach_block",
