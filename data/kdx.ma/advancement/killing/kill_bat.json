@@ -6,7 +6,7 @@
     "frame": "task",
     "title": "终止批处理",
     "description": {
-      "text": "Microsoft Mojang Minecraft [版本 1.21.8]\n(c) Microsoft Corporation。保留所有权利。",
+      "text": "§oMicrosoft Mojang Minecraft [版本 1.21.8]\n(c) Microsoft Corporation。保留所有权利。",
       "italic": true
     },
     "hidden": true
