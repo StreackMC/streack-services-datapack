@@ -1,17 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "barrier"
+      "id": "ender_pearl"
     },
     "title": {
       "text": "珍珠弩装填检测器",
       "italic": false
     },
     "description": {
-      "text": "aaa",
+      "text": "",
       "italic": false
     },
-    "hidden": false,
     "announce_to_chat": false,
     "show_toast": false
   },

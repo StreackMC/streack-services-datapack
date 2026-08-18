@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:tnt",
+    "minecraft:blaze_powder",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "minecraft:tnt",
+    "components": {
+      "item_name": [
+        {"translate": "item.streack.unstable_tnt", "fallback": "不稳定的TNT", "italic": false}
+      ],
+      "lore": [
+        {"text":"","extra":[{"text":"经过烈焰粉活性化而不稳定的TNT，受到轻微震动就会爆炸。","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]},
+        {"text":"","extra":[{"text":"向其喷溅水或药水将使其稳定化，变为普通TNT。","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]},
+        {"text":"","extra":[{"text":"通过合成获得","italic":true,"color":"gray"}]}
+      ],
+      "block_state": {
+        "unstable": "true"
+      },
+      "max_stack_size": 16,
+      "enchantment_glint_override": true,
+      "custom_data": {
+        "streack": "unstable_tnt"
+      }
+    },
+    "count": 1
+  }
+}

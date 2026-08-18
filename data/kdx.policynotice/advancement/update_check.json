@@ -1,14 +1,13 @@
 {
   "display": {
     "title": "阅读更新后的用户协议",
-    "hidden": true,
     "announce_to_chat": false,
     "show_toast": false,
     "icon": {
       "id": "minecraft:enchanted_book"
     },
     "frame": "task",
-    "description": "\n"
+    "description": ""
   },
   "parent": "kdx:_hidden",
   "sends_telemetry_event": false,

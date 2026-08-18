@@ -8,11 +8,10 @@
       "italic": false
     },
     "description": {
-      "text": "aaa",
+      "text": "",
       "italic": false
     },
     "frame": "task",
-    "hidden": true,
     "announce_to_chat": false,
     "show_toast": false
   },

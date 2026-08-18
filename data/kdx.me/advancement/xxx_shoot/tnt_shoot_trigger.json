@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "barrier"
+      "id": "crossbow"
     },
     "title": {
       "text": "TNT弩装填检测器",
@@ -11,7 +11,6 @@
       "text": "aaa",
       "italic": false
     },
-    "hidden": false,
     "announce_to_chat": false,
     "show_toast": false
   },

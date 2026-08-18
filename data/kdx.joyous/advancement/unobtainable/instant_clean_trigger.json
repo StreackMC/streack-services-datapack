@@ -8,10 +8,9 @@
       "italic": false
     },
     "description": {
-      "text": "aaa",
+      "text": "",
       "italic": false
     },
-    "hidden": true,
     "announce_to_chat": false,
     "show_toast": false
   },
