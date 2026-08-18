@@ -7,8 +7,8 @@
       "predicate": {
         "slots": {
           "villager.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -22,8 +22,8 @@
       "predicate": {
         "slots": {
           "player.cursor": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -37,8 +37,8 @@
       "predicate": {
         "slots": {
           "player.crafting.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -52,8 +52,8 @@
       "predicate": {
         "slots": {
           "horse.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -67,8 +67,8 @@
       "predicate": {
         "slots": {
           "armor.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -82,8 +82,8 @@
       "predicate": {
         "slots": {
           "container.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -97,8 +97,8 @@
       "predicate": {
         "slots": {
           "inventory.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }
@@ -112,8 +112,8 @@
       "predicate": {
         "slots": {
           "hotbar.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack.unobtainable": "instant"
               }
             }

@@ -1,5 +1,5 @@
 {
-  "condition": "any_of",
+  "condition": "minecraft:any_of",
   "terms": [
     {
       "condition": "entity_properties",
@@ -7,8 +7,8 @@
       "predicate": {
         "slots": {
           "villager.*": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack": "unstable_tnt"
               }
             }
@@ -22,8 +22,8 @@
       "predicate": {
         "slots": {
           "player.cursor": {
-            "components": {
-              "custom_data": {
+            "predicates": {
+              "minecraft:custom_data": {
                 "streack": "unstable_tnt"
               }
             }
