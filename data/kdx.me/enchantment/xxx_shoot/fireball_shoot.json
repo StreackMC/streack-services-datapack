@@ -22,8 +22,21 @@
     "minecraft:projectile_spawned": [
       {
         "effect": {
-          "type": "minecraft:run_function",
-          "function": "kdx.me:xxx_shoot/fireball_shoot_shoot"
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "kdx.me:xxx_shoot/fireball_shoot_shoot"
+            },
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": -3,
+                "per_level_above_first": -3
+              }
+            }
+          ]
         },
         "requirements": [
           {

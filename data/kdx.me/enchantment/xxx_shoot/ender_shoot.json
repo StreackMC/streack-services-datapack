@@ -22,8 +22,17 @@
     "minecraft:projectile_spawned": [
       {
         "effect": {
-          "type": "minecraft:run_function",
-          "function": "kdx.me:xxx_shoot/ender_shoot_shoot"
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "kdx.me:xxx_shoot/ender_shoot_shoot"
+            },
+            {
+              "type": "change_item_damage",
+              "amount": -1
+            }
+          ]
         },
         "requirements": [
           {
