@@ -14,7 +14,7 @@
     "frame": "task",
     "hidden": false
   },
-  "parent": "minecraft:story/mine_stone",
+  "parent": "kdx:_mystery",
   "criteria": {
     "bang": {
       "trigger": "minecraft:inventory_changed",
