@@ -1,3 +1,3 @@
-function kdx:system/version_check {version: 1b}
+function kdx:system/version_check {version: 1}
 
 # 模块 Call
