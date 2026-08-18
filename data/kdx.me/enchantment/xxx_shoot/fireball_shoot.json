@@ -4,7 +4,7 @@
     "fallback": "烈焰改装"
   },
   "anvil_cost": 6,
-  "weight": 3,
+  "weight": 2,
   "max_level": 2,
   "exclusive_set": ["minecraft:quick_charge","kdx.me:moon_blessing"],
   "supported_items": "minecraft:crossbow",

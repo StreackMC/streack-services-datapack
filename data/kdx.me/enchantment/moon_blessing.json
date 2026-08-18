@@ -4,7 +4,7 @@
     "fallback": "皎月祝赐"
   },
   "anvil_cost": 5,
-  "weight": 1,
+  "weight": 2,
   "max_level": 3,
   "exclusive_set": [
     "kdx.me:xxx_shoot/tnt_shoot",

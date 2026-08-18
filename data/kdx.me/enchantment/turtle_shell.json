@@ -4,7 +4,7 @@
     "fallback": "龟甲强化"
   },
   "anvil_cost": 5,
-  "weight": 1,
+  "weight": 6,
   "max_level": 2,
   "exclusive_set": [],
   "supported_items": "minecraft:turtle_helmet",

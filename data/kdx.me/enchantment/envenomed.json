@@ -5,7 +5,7 @@
   },
   "anvil_cost": 3,
   "weight": 1,
-  "max_level": 2,
+  "max_level": 3,
   "exclusive_set": [
     "kdx.me:moon_blessing"
   ],
