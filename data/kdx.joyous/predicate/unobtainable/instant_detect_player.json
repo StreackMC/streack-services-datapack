@@ -6,6 +6,96 @@
       "entity": "this",
       "predicate": {
         "slots": {
+          "villager.*": {
+            "components": {
+              "custom_data": {
+                "streack.unobtainable": "instant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "player.cursor": {
+            "components": {
+              "custom_data": {
+                "streack.unobtainable": "instant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "player.crafting.*": {
+            "components": {
+              "custom_data": {
+                "streack.unobtainable": "instant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "horse.*": {
+            "components": {
+              "custom_data": {
+                "streack.unobtainable": "instant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "armor.*": {
+            "components": {
+              "custom_data": {
+                "streack.unobtainable": "instant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "components": {
+              "custom_data": {
+                "streack.unobtainable": "instant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
           "inventory.*": {
             "components": {
               "custom_data": {
