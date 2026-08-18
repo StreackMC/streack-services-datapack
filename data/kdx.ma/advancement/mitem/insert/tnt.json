@@ -4,14 +4,14 @@
       "id": "minecraft:tnt"
     },
     "title": {
-      "text": "获得真正的升级",
+      "text": "矿石只在大炮射程内……",
       "italic": false
     },
     "description": {
       "text": "你需要改进。我可以教你如何使用TNT掘进隧道",
       "italic": false
     },
-    "frame": "goal",
+    "frame": "task",
     "hidden": false
   },
   "parent": "minecraft:story/mine_stone",

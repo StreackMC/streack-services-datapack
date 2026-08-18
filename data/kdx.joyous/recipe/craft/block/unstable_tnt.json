@@ -15,6 +15,7 @@
       "lore": [
         {"text":"","extra":[{"text":"经过烈焰粉活性化而不稳定的TNT，受到轻微震动就会爆炸。","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]},
         {"text":"","extra":[{"text":"向其喷溅水或药水将使其稳定化，变为普通TNT。","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false}]},
+        {"text":"","extra":[{"text":"该物品在背包内存在 600 秒后将立即爆炸。","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]},
         {"text":"","extra":[{"text":"通过合成获得","italic":true,"color":"gray"}]}
       ],
       "block_state": {
