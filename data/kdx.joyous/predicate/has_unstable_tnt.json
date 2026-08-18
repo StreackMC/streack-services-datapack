@@ -37,7 +37,7 @@
       "predicate": {
         "slots": {
           "player.crafting.*": {
-            "components": {
+            "predicates": {
               "custom_data": {
                 "streack": "unstable_tnt"
               }
@@ -52,7 +52,7 @@
       "predicate": {
         "slots": {
           "horse.*": {
-            "components": {
+            "predicates": {
               "custom_data": {
                 "streack": "unstable_tnt"
               }
@@ -67,7 +67,7 @@
       "predicate": {
         "slots": {
           "armor.*": {
-            "components": {
+            "predicates": {
               "custom_data": {
                 "streack": "unstable_tnt"
               }
@@ -82,7 +82,7 @@
       "predicate": {
         "slots": {
           "container.*": {
-            "components": {
+            "predicates": {
               "custom_data": {
                 "streack": "unstable_tnt"
               }
@@ -97,7 +97,7 @@
       "predicate": {
         "slots": {
           "inventory.*": {
-            "components": {
+            "predicates": {
               "custom_data": {
                 "streack": "unstable_tnt"
               }
@@ -112,7 +112,7 @@
       "predicate": {
         "slots": {
           "hotbar.*": {
-            "components": {
+            "predicates": {
               "custom_data": {
                 "streack": "unstable_tnt"
               }
