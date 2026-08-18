@@ -15,7 +15,7 @@
     "frame": "goal",
     "hidden": false
   },
-  "parent": "kdx.ma:mitem/insert/tnt",
+  "parent": "kdx.ma:mitem/create_tnt",
   "criteria": {
     "ut1": {
       "trigger": "minecraft:inventory_changed",

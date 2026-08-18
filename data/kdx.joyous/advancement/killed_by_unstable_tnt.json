@@ -17,7 +17,7 @@
     "frame": "challenge",
     "hidden": true
   },
-  "parent": "kdx.ma:mitem/insert/tnt",
+  "parent": "kdx.ma:mitem/create_tnt",
   "criteria": {
     "boom": {
       "trigger": "minecraft:impossible"
