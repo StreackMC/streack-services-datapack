@@ -14,7 +14,7 @@
     "announce_to_chat": false,
     "show_toast": false
   },
-  "parent": "kdx:_hidden",
+  "parent": "kdx.me:_module",
   "criteria": {
     "isHasItemWithTag": {
       "trigger": "minecraft:using_item",
