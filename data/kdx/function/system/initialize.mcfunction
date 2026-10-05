@@ -1,3 +1,7 @@
+scoreboard objectives add kdx_health health "生命值"
+scoreboard objectives add kdx_air air "氧气值"
+scoreboard objectives add kdx_armor armor "盔甲值"
+scoreboard objectives add kdx_food food "饥饿值"
 scoreboard objectives add kdx dummy "Streack Service Datapack 变量存储"
 scoreboard players set kdx:state.ok kdx 200
 
