@@ -4,7 +4,7 @@
     "fallback": "血馑狂奔",
     "color": "red"
   },
-  "anvil_cost": 4,
+  "anvil_cost": 5,
   "weight": 1,
   "max_level": 2,
   "exclusive_set": [],

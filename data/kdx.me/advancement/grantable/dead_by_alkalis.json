@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron",
+      "components": {
+        "item_name": "钠块",
+        "custom_data": {"streack": "chemistry_na"},
+        "enchantment_glint_override": true
+      }
+    },
+    "frame": "challenge",
+    "title": {
+      "text": "加钠"
+    },
+    "description": {
+      "text": "§o老夫聊发少年狂，碱金属、丢池塘。浮熔游响，激起千朵浪。氢锂钠钾铷铯钫，还原性、非常强。\n满池鱼虾尽遭殃，氢离子、无处藏。强碱入水，花草尽凋亡。氢气受热被点燃，爆炸声、传四方。"
+    },
+    "hidden": true
+  },
+  "parent": "kdx:_joyose",
+  "criteria": {
+    "dead_by_alkalis_heating": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "function": "kdx.joyous:adv/money/20"
+  }
+}

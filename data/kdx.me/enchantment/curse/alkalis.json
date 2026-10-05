@@ -1,0 +1,111 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.alkalis",
+    "fallback": "碱金属",
+    "color": "red"
+  },
+  "anvil_cost": 4,
+  "weight": 1,
+  "max_level": 1,
+  "exclusive_set": [
+    "minecraft:fire_protection",
+    "minecraft:frost_walker"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "slots": [
+    "armor"
+  ],
+  "min_cost": {
+    "base": 28,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "kdx.me:alkalis_execution"
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "fluid": {
+                  "fluids": ["minecraft:water", "minecraft:flowing_water"]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "kdx_health": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 10
+        },
+        "requirements": {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "fluid": {
+                  "fluids": ["minecraft:water", "minecraft:flowing_water"]
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "white_smoke"
+          },
+          "vertical_position": {
+            "type": "entity_position"
+          },
+          "vertical_velocity": {
+            "base": 1.0,
+            "movement_scale": 0.75
+          },
+          "horizontal_position": {
+            "type": "entity_position"
+          },
+          "horizontal_velocity": {
+            "base": 0,
+            "movement_scale": 0.5
+          },
+          "speed": 1
+        },
+        "requirements": {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "fluid": {
+                  "fluids": ["minecraft:water", "minecraft:flowing_water"]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
