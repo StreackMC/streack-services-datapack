@@ -1,0 +1,77 @@
+{
+  "description": {
+    "translate": "enchantmanet.streack.borrowing_arrows_with_humanbeings",
+    "fallback": "借箭"
+  },
+  "anvil_cost": 1,
+  "weight": 5,
+  "max_level": 1,
+  "exclusive_set": [],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "slots": [
+    "armor"
+  ],
+  "min_cost": {
+    "base": 29,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 39,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "type": "minecraft:arrow"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "kdx.me:borrowing_arrows_with_humanbeings/arrow"
+        }
+      },
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "type": "minecraft:spectral_arrow"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "kdx.me:borrowing_arrows_with_humanbeings/spectral_arrow"
+        }
+      },
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "type": "minecraft:arrow"
+            }
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "kdx.me:borrowing_arrows_with_humanbeings/arrow"
+        }
+      }
+    ]
+  }
+}
