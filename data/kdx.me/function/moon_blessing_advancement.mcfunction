@@ -1,1 +1,1 @@
-advancement grant @s only kdx.me:trigger_moon_blessing
+advancement grant @s only kdx.me:grantable/trigger_moon_blessing
