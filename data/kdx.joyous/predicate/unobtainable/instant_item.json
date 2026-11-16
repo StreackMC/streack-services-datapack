@@ -1,0 +1,27 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "match_tool",
+      "predicate": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "streack.unobtainable": "instant"
+          }
+        }
+      }
+    },
+    {
+      "condition": "match_tool",
+      "predicate": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "PublicBukkitValues": {
+              "streack.unobtainable": "instant"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
